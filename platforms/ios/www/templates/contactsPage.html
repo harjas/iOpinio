@@ -1,0 +1,15 @@
+          <div data-role="header">
+            <h1>Contacts</h1>
+          </div>
+          <div data-role = "content" id="contactsPageContent">
+                  <ion-list ng-model="theContacts">
+			        <ion-item class="item item-checkbox" ng-repeat="username in usernames"  padding="true">
+			           <label class="checkbox">
+			             <input type="checkbox" name="checkbox-1" ng-model="username.checked" ng-checked="username.checked">
+			           </label>
+			           {{username.name}}
+			        </ion-item>
+			      </ion-list>
+                <button class="button button-positive button-block" ng-click="follow()">Follow them!</button>
+                <button class="button button-positive button-block" ng-click="skip()">Skip</button>
+          </div>  

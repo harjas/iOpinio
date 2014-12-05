@@ -1,0 +1,34 @@
+2014-12-04 19:34:51.056 iOpinio[1728:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 19:34:51.057 iOpinio[1728:70b] Multi-tasking -> Device: YES, App: YES
+2014-12-04 19:34:51.098 iOpinio[1728:70b] Unlimited access to network resources
+2014-12-04 19:34:52.276 iOpinio[1728:70b] [CDVTimer][file] 15.293956ms
+2014-12-04 19:34:52.440 iOpinio[1728:70b] [CDVTimer][statusbar] 163.257003ms
+2014-12-04 19:34:52.441 iOpinio[1728:70b] [CDVTimer][TotalPluginStartup] 179.787040ms
+2014-12-04 19:34:52.550 iOpinio[1728:70b] Resetting plugins due to page load.
+2014-12-04 19:34:53.090 iOpinio[1728:70b] Finished load of: file:///Users/benchansky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BDDA685C-B648-40A8-A506-59F12C4D2CB3/iOpinio.app/www/index.html#/home
+2014-12-04 19:40:45.843 iOpinio[2152:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 19:40:45.845 iOpinio[2152:70b] Multi-tasking -> Device: YES, App: YES
+2014-12-04 19:40:45.849 iOpinio[2152:70b] Unlimited access to network resources
+2014-12-04 19:40:45.866 iOpinio[2152:70b] [CDVTimer][file] 1.461029ms
+2014-12-04 19:40:45.880 iOpinio[2152:70b] [CDVTimer][statusbar] 11.878014ms
+2014-12-04 19:40:45.881 iOpinio[2152:70b] [CDVTimer][TotalPluginStartup] 16.507030ms
+2014-12-04 19:40:45.966 iOpinio[2152:70b] Resetting plugins due to page load.
+2014-12-04 19:40:46.181 iOpinio[2152:70b] Finished load of: file:///Users/benchansky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BDDA685C-B648-40A8-A506-59F12C4D2CB3/iOpinio.app/www/index.html#/home
+2014-12-04 23:57:55.093 iOpinio[15602:514462] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Harjas/Library/Developer/CoreSimulator/Devices/A37D5A2B-13CB-4069-B173-4D4A2616DC36/data/Containers/Data/Application/F3D5B7DF-8436-4997-A144-152D88979567/Library/Cookies/Cookies.binarycookies
+2014-12-04 23:57:55.235 iOpinio[15602:514462] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-04 23:57:55.235 iOpinio[15602:514462] Multi-tasking -> Device: YES, App: YES
+2014-12-04 23:57:55.259 iOpinio[15602:514462] Unlimited access to network resources
+2014-12-04 23:57:55.652 iOpinio[15602:514462] [CDVTimer][file] 10.412991ms
+2014-12-04 23:57:55.769 iOpinio[15602:514462] [CDVTimer][statusbar] 117.045999ms
+2014-12-04 23:57:55.769 iOpinio[15602:514462] [CDVTimer][TotalPluginStartup] 127.799988ms
+2014-12-04 23:57:55.836 iOpinio[15602:514462] Resetting plugins due to page load.
+2014-12-04 23:57:56.168 iOpinio[15602:514462] Finished load of: file:///Users/Harjas/Library/Developer/CoreSimulator/Devices/A37D5A2B-13CB-4069-B173-4D4A2616DC36/data/Containers/Bundle/Application/5AAE1ABB-7E53-4A44-B1A2-9CAF465BEA9D/iOpinio.app/www/index.html#/home
+2014-12-05 00:09:24.407 iOpinio[16779:521303] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Harjas/Library/Developer/CoreSimulator/Devices/A37D5A2B-13CB-4069-B173-4D4A2616DC36/data/Containers/Data/Application/423E2803-293D-4D38-8A4C-4C22CFA92C44/Library/Cookies/Cookies.binarycookies
+2014-12-05 00:09:24.473 iOpinio[16779:521303] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-05 00:09:24.474 iOpinio[16779:521303] Multi-tasking -> Device: YES, App: YES
+2014-12-05 00:09:24.479 iOpinio[16779:521303] Unlimited access to network resources
+2014-12-05 00:09:24.659 iOpinio[16779:521303] [CDVTimer][file] 3.745973ms
+2014-12-05 00:09:24.675 iOpinio[16779:521303] [CDVTimer][statusbar] 15.941978ms
+2014-12-05 00:09:24.675 iOpinio[16779:521303] [CDVTimer][TotalPluginStartup] 19.980013ms
+2014-12-05 00:09:24.728 iOpinio[16779:521303] Resetting plugins due to page load.
+2014-12-05 00:09:24.925 iOpinio[16779:521303] Finished load of: file:///Users/Harjas/Library/Developer/CoreSimulator/Devices/A37D5A2B-13CB-4069-B173-4D4A2616DC36/data/Containers/Bundle/Application/FDDEF4D6-47E1-40E1-906D-DB26071047F3/iOpinio.app/www/index.html#/home

@@ -1,0 +1,56 @@
+/* Your app's CSS, go crazy, make it your own */
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.details {
+    padding: 0px 12px 20px 12px;
+}
+
+.details img {
+    float: left;
+    margin-right: 12px;
+}
+
+.list {
+    clear: both;
+}
+
+.home{
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.boston{
+	background: url(../img/boston.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.list, .opt{
+	zoom: 1;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+}
+
+.pollbg{
+  background: url(../img/app_bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+body,button,h1,h2{
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1,h2{
+	color:white;
+}

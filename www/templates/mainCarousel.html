@@ -1,0 +1,67 @@
+<view title="'iOpinio'" class="padding pollbg" style="text-align:center" overflow-scroll="true" direction="y">
+
+<!--<ion-content class="has-header" padding="true" scroll="true" direction="y">  -->
+
+  <ion-content ng-controller="createPollCtrl" overflow-scroll="true" class="list opt" id="poll" >
+    <ion-slide-box show-pager="false" on-slide-changed="slideChanged()">
+
+
+      <ion-slide>
+        <div data-role="header">
+      	<h2 style="text-align:center"> Create A Poll! </h2>
+        </div>
+          <div class="opt">
+          <label class="item item-input">
+            <input type="text" id="question" placeholder="Question?" ng-model="question">
+          </label>
+          <ul class="list" id="optionsList"></ul>
+            <ion-item ng-repeat="option in options" option="option" padding="true">
+                <a class="item item-icon-left">
+                  <i class="icon ion-camera"></i>
+                  <p>{{ option.optionText }}</p>
+                </a>
+            </ion-item>
+           </div>
+          <div class="opt" data-role="controlgroup" data-inline="true">
+            <label class="item item-input">
+              <input type="text" id="addOptionText" placeholder="Add Option?" ng-model="addOptionText">
+              <button class="button" id="add-option-button" ng-click="add_option()"> Add </button>
+            </label>
+          </div>
+
+
+
+        <li class="item item-checkbox opt">
+           <label class="checkbox">
+             <input type="checkbox" name="checkbox-1" id="INSTABOX" ng-model="INSTABOX" style="text-align:right">
+           </label>
+           Instant Poll?
+        </li>
+        <div class="list opt">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              End the Poll In...
+            </div>
+            <select ng-model="mytimeOptions" ng-options="t.time for t in timeOptions">
+            <option value="">-- choose time --</option>
+            </select>
+          <br>
+          </label>
+        </div>
+          <button class="button" id="sendTo" ng-click="goToSendToPage()"> Send To... </button>
+  	</ion-slide>
+
+    <ion-slide>
+      <div data-role="header">
+          <h1>Pol</h1>
+          <a data-role="button" data-theme="b" id="refreshPersonalFeed" class="ui-btn ui-corner-all ui-icon-refresh ui-btn-icon-notext">Refresh Icon</a>
+      </div>
+          <div data-role="content" id="personalFeedContent" style="height:100vh">
+              <ul id="feedList" data-role="listview"></ul>
+          </div>
+      </div>
+    </ion-slide>  
+  </ion-slide-box>
+
+  </ion-content>
+</view>      

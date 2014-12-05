@@ -1,0 +1,57 @@
+<h2 style="text-align:center"> Create A Poll! </h2>
+<!--<ion-content class="has-header" padding="true" scroll="true" direction="y">  -->
+  <ion-content ng-controller="createPollCtrl" class="list" id="poll" scroll="true" direction="y" scroll-detector>
+    <label class="item item-input">
+      <input type="text" id="question" placeholder="Question?" ng-model="question">
+    </label>
+    <ul class="list" id="optionsList"></ul>
+      <ion-item ng-repeat="option in options" option="option" padding="true">
+          <a class="item item-icon-left">
+            <i class="icon ion-camera" ng-click="modal.show()"></i>
+            <p>{{ option.optionText }}</p>
+          </a>
+      </ion-item>
+    <div data-role="controlgroup" data-inline="true">
+      <label class="item item-input">
+        <input type="text" id="addOptionText" placeholder="Add Option?" ng-model="addOptionText">
+        <button class="button" id="add-option-button" ng-click="add_option()"> Add </button>
+      </label>
+    </div>
+
+
+
+  <li class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox" name="checkbox-1" id="INSTABOX" ng-model="INSTABOX">
+     </label>
+     Insta
+  </li>
+  <div class="list">
+    <label class="item item-input item-select">
+      <div class="input-label">
+        End the Poll In...
+      </div>
+      <select ng-model="mytimeOptions" ng-options="t.time for t in timeOptions">
+      <option value="">-- choose time --</option>
+      </select>
+    <br>
+    </label>
+  </div>
+    <button class="button" id="sendTo" ng-click="goToSendToPage()"> Send To... </button>
+  </ion-content>
+
+
+    <script id="modal.html" type="text/ng-template">
+      <div class="modal">
+        <header class="bar bar-header bar-positive">
+          <h1 class="title">Im A Modal</h1>
+          <div class="button button-clear" ng-click="modal.hide()"><span class="icon ion-close"></span></div>
+        </header>
+        <content has-header="true" padding="true">
+          <p>This is a modal</p>
+        </content>
+      </div>
+    </script>
+
+
+      

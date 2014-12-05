@@ -1,0 +1,28 @@
+<view title="'iOpinio'" class="pollbg">
+  <content class="padding" has-header="true" has-subheader="true" style="text-align:center">
+
+      <div data-role="header">
+                   <h1>Select Recipients</h1>
+      </div>
+      <div class="opt">
+      <ion-item ng-repeat="name in groupNames"  padding="true">
+          <a class="item item-icon-left">
+            <p>{{ name }}</p>
+          </a>
+      </ion-item>
+      </div>
+      <div class="opt">
+      <ion-list ng-model="theUsernames">
+        <ion-item class="item item-checkbox" ng-repeat="username in contacts"  padding="true">
+           <label class="checkbox">
+             <input type="checkbox" name="checkbox-1" ng-model="username.checked" ng-checked="username.checked">
+           </label>
+           {{username.name}}
+        </ion-item>
+      </ion-list>
+      </div>
+      <div>
+      <button class="button button-positive button-block" id="sendTo" ng-click="sendInfo()" padding="true"> Send!</button>
+      </div>
+  </content>
+</view>

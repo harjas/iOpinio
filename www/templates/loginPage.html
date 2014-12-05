@@ -1,0 +1,27 @@
+<view title="'iOpinio'" class="boston">
+    <content class="padding" has-header="true" has-subheader="true" style="text-align:center">
+        <h2 style="text-align:center;font-family: 'PT Sans', sans-serif;"> Checkin' In? </h2>
+        
+        <div class="list list-inset" id="loginForm" ng-controller="loginPageCtrl">
+            <label class="item item-input">
+                <span class="input-label" >Username</span>
+                <input type="text" id="username" ng-model="username">
+            </label>
+            <label class="item item-input">
+                <span class="input-label" >Password</span>
+                <input type="password" id="password" ng-model="password">
+            </label>
+        
+        
+        <button class="button button-positive button-block padding" id="submitButton" ng-click="submitLogin()">
+          Submit
+        </button>
+
+        <button class="button button-clear button-stable button-small" id="ForgotPasswordButton" ng-click="ForgotPassword()">
+            Forgot Password
+        </button> 
+
+        </div>
+        
+    </content>
+</view>

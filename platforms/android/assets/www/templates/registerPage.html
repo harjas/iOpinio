@@ -1,0 +1,40 @@
+<view title="'iOpinio'" class="boston">
+    <content class="padding" has-header="true" has-subheader="true" style="text-align:center">
+        <h2 style="font-family: 'PT Sans', sans-serif;">In My Opinio..</h2>
+
+        <div class="list list-inset" id="registerForm" ng-controller="registerPageCtrl">
+            <label class="item item-input item-floating-label" ng-controller="registerPageCtrl">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="Name" id="Regname" ng-model="Regname">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Gender</span>
+                <input type="text" placeholder="gender" id="Reggender" ng-model="Reggender" >
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Age</span>
+                <input type="text" paceholder="age" id="Regage" ng-model="Regage">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Email</span>
+                <input type="text" placeholder="Email" id="Regemail" ng-model="Regemail">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Phone</span>
+                <input type="tel" placeholder="Phone Number" id="Regphonenumber" ng-model="Regphonenumber">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Username</span>
+                <input type="text" placeholder="Username" id="Regusername" ng-model="Regusername">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Password</span>
+                <input type="password" placeholder="Password" id="Regpassword" ng-model="Regpassword">
+            </label>
+
+        <button class="button button-positive button-block button-outline button-small  padding" id="registerButton" ng-click="submitRegisterForm()">
+        Register! 
+        </button>
+                </div>
+    </content> 
+</view> 
